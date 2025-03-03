@@ -1,14 +1,14 @@
 import react from "react"
 import reactDOM from "react-dom/client"
 import "./style.css"
-import one from "one.jpg"
-import two from "two.jpg"
-import three from "three.jpg"
-import four from "four.jpg"
-import five from "five.jpg"
-import six from ".six.jpg"
-import seven from "seven.jpg"
-import eight from "eight.jpg"
+import one from "./assert/images/one.jpg"
+import two from "./assert/images/two.jpg"
+import three from "./assert/images/three.jpg"
+import four from "./assert/images/four.jpg"
+import five from "./assert/images/five.jpg"
+import six from "./assert/images/six.jpg"
+import seven from "./assert/images/seven.jpg"
+import eight from "./assert/images/eight.jpg"
 
 const root = reactDOM.createRoot(document.getElementById("root"))
 function Gallery(props){
